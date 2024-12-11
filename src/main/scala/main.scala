@@ -1,7 +1,7 @@
-import Connection.getToken
+import Connection.TelegramBotApi.*
 
 @main
 def main(): Unit = {
-  println(getToken)
+  println(getFilePath(getUpdates))
 }
 
